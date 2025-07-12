@@ -19,7 +19,7 @@ This repository contains two applications that manage a class-based ride sharing
 This repository contains two source files:
 
 - **RideSharingApp.cpp** – A complete, command-line based C++ implementation of the ride sharing program.
-- **Assignment5SmallTalk.image** – A Smalltalk image file containing the ride sharing program, intended to be run in a Smalltalk environment like Pharo.
+- **RideSharingApplication.image** – A Smalltalk image file containing the ride sharing program, intended to be run in a Smalltalk environment like Pharo. It can be found inside the RideSharingApplication folder.
 
 ---
 
