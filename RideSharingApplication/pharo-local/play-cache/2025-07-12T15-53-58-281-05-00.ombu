@@ -1,0 +1,13 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-12T15:54:03.68-05:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '"Create the system"\rsystem := RideSharingSystem new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-07-12T15:54:15.614-05:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '"Create the system"\rsystem := RideSharingSystem new.\r\r"Create drivers"\rdriver1 := Driver new initializeWithID: 1 name: \'John Smith\' rating: 4.8.\rdriver2 := Driver new initializeWithID: 2 name: \'Sarah Johnson\' rating: 4.9.\r\r"Create riders"\rrider1 := Rider new initializeWithID: 1 name: \'Alice Cooper\'.\rrider2 := Rider new initializeWithID: 2 name: \'Bob Wilson\'.'
+}

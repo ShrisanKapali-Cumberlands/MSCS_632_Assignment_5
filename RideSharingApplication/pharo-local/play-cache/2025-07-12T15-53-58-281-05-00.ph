@@ -1,0 +1,1 @@
+"Create the system"system := RideSharingSystem new."Create drivers"driver1 := Driver new initializeWithID: 1 name: 'John Smith' rating: 4.8.driver2 := Driver new initializeWithID: 2 name: 'Sarah Johnson' rating: 4.9."Create riders"rider1 := Rider new initializeWithID: 1 name: 'Alice Cooper'.rider2 := Rider new initializeWithID: 2 name: 'Bob Wilson'.

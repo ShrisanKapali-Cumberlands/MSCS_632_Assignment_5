@@ -1,0 +1,5360 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo13.0-SNAPSHOT-64bit-e698f20169.22084A584A98', '1' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpPackageAddition {
+		#packageName : #RideSharingSystem
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Uncategorized,
+		#packageName : #RideSharingSystem
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideID\r    ^ rideID\r',
+			#stamp : '2025-07-12T15:47:19.206-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideID\r    ^ rideID\r',
+			#stamp : '2025-07-12T15:47:19.206-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideID,
+			#protocol : #accessing,
+			#sourceCode : 'rideID\r    ^ rideID\r',
+			#stamp : '2025-07-12T15:47:19.206-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #pickupLocation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'pickupLocation\r    ^ pickupLocation',
+			#stamp : '2025-07-12T15:47:43.034-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #pickupLocation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'pickupLocation\r    ^ pickupLocation',
+			#stamp : '2025-07-12T15:47:43.034-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #pickupLocation,
+			#protocol : #accessing,
+			#sourceCode : 'pickupLocation\r    ^ pickupLocation',
+			#stamp : '2025-07-12T15:47:43.034-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #dropoffLocation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'dropoffLocation\r    ^ dropoffLocation',
+			#stamp : '2025-07-12T15:47:54.206-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #dropoffLocation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'dropoffLocation\r    ^ dropoffLocation',
+			#stamp : '2025-07-12T15:47:54.206-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #dropoffLocation,
+			#protocol : #accessing,
+			#sourceCode : 'dropoffLocation\r    ^ dropoffLocation',
+			#stamp : '2025-07-12T15:47:54.206-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #distance,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'distance\r    ^ distance',
+			#stamp : '2025-07-12T15:47:59.067-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #distance,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'distance\r    ^ distance',
+			#stamp : '2025-07-12T15:47:59.067-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #distance,
+			#protocol : #accessing,
+			#sourceCode : 'distance\r    ^ distance',
+			#stamp : '2025-07-12T15:47:59.067-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #fare,
+			#protocol : #accessing,
+			#sourceCode : 'fare\r    ^ fare',
+			#stamp : '2025-07-12T15:48:05.198-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'rideID:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideID: anID\r    rideID := anID',
+			#stamp : '2025-07-12T15:48:18.683-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'rideID:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideID: anID\r    rideID := anID',
+			#stamp : '2025-07-12T15:48:18.683-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'rideID:',
+			#protocol : #accessing,
+			#sourceCode : 'rideID: anID\r    rideID := anID',
+			#stamp : '2025-07-12T15:48:18.683-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'pickupLocation:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'pickupLocation: aLocation\r    pickupLocation := aLocation',
+			#stamp : '2025-07-12T15:48:23.601-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'pickupLocation:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'pickupLocation: aLocation\r    pickupLocation := aLocation',
+			#stamp : '2025-07-12T15:48:23.601-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'pickupLocation:',
+			#protocol : #accessing,
+			#sourceCode : 'pickupLocation: aLocation\r    pickupLocation := aLocation',
+			#stamp : '2025-07-12T15:48:23.601-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'dropoffLocation:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'dropoffLocation: aLocation\r    dropoffLocation := aLocation',
+			#stamp : '2025-07-12T15:48:28.214-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'dropoffLocation:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'dropoffLocation: aLocation\r    dropoffLocation := aLocation',
+			#stamp : '2025-07-12T15:48:28.214-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'dropoffLocation:',
+			#protocol : #accessing,
+			#sourceCode : 'dropoffLocation: aLocation\r    dropoffLocation := aLocation',
+			#stamp : '2025-07-12T15:48:28.214-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'distance: aDistance\r    distance := aDistance',
+			#stamp : '2025-07-12T15:48:32.381-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'distance: aDistance\r    distance := aDistance',
+			#stamp : '2025-07-12T15:48:32.381-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'distance:',
+			#protocol : #accessing,
+			#sourceCode : 'distance: aDistance\r    distance := aDistance',
+			#stamp : '2025-07-12T15:48:32.381-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'fare:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fare: aFare\r    fare := aFare',
+			#stamp : '2025-07-12T15:48:38.001-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'fare:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'fare: aFare\r    fare := aFare',
+			#stamp : '2025-07-12T15:48:38.001-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'fare:',
+			#protocol : #accessing,
+			#sourceCode : 'fare: aFare\r    fare := aFare',
+			#stamp : '2025-07-12T15:48:38.001-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    rideID := anID.\r    pickupLocation := aPickup.\r    dropoffLocation := aDropoff.\r    distance := aDistance.\r    fare := self calculateFare',
+			#stamp : '2025-07-12T15:48:46.883-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    rideID := anID.\r    pickupLocation := aPickup.\r    dropoffLocation := aDropoff.\r    distance := aDistance.\r    fare := self calculateFare',
+			#stamp : '2025-07-12T15:48:46.883-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    rideID := anID.\r    pickupLocation := aPickup.\r    dropoffLocation := aDropoff.\r    distance := aDistance.\r    fare := self calculateFare',
+			#stamp : '2025-07-12T15:48:46.883-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Ride\r\tslots: { #rideID . #pickupLocation . #dropoffLocation . #distance . #fare };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ride,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #rideID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #pickupLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #dropoffLocation,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #distance,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ride,
+						#isMeta : false
+					},
+					#name : #fare,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Ride class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ride class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ride,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calculateFare\r    "Base fare calculation: $2.50 base + $1.50 per mile"\r    ^ 2.50 + (distance * 1.50)',
+			#stamp : '2025-07-12T15:48:53.323-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ride,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideDetails\r    ^ String streamContents: [ :stream |\r        stream \r            nextPutAll: \'Ride ID: \'; nextPutAll: rideID asString; cr;\r            nextPutAll: \'From: \'; nextPutAll: pickupLocation; cr;\r            nextPutAll: \'To: \'; nextPutAll: dropoffLocation; cr;\r            nextPutAll: \'Distance: \'; nextPutAll: distance asString; nextPutAll: \' miles\'; cr;\r            nextPutAll: \'Fare: $\'; nextPutAll: self calculateFare asString ]',
+			#stamp : '2025-07-12T15:49:09.001-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #StandardRide\r\tslots: {};\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #StandardRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << StandardRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'StandardRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #StandardRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #StandardRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calculateFare\r    "Standard fare: $2.00 base + $1.25 per mile"\r    ^ 2.00 + (distance * 1.25)',
+			#stamp : '2025-07-12T15:49:38.692-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #StandardRide,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideDetails\r    ^ String streamContents: [ :stream |\r        stream \r            nextPutAll: \'[STANDARD] \';\r            nextPutAll: super rideDetails ]',
+			#stamp : '2025-07-12T15:49:59.739-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #vehicleType,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'vehicleType\r    ^ vehicleType\r',
+			#stamp : '2025-07-12T15:50:28.173-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #vehicleType,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'vehicleType\r    ^ vehicleType\r',
+			#stamp : '2025-07-12T15:50:28.173-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #vehicleType,
+			#protocol : #accessing,
+			#sourceCode : 'vehicleType\r    ^ vehicleType\r',
+			#stamp : '2025-07-12T15:50:28.173-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'vehicleType:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'vehicleType: aType\r    vehicleType := aType',
+			#stamp : '2025-07-12T15:50:31.444-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'vehicleType:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'vehicleType: aType\r    vehicleType := aType',
+			#stamp : '2025-07-12T15:50:31.444-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'vehicleType:',
+			#protocol : #accessing,
+			#sourceCode : 'vehicleType: aType\r    vehicleType := aType',
+			#stamp : '2025-07-12T15:50:31.444-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    vehicleType := \'Luxury Sedan\'',
+			#stamp : '2025-07-12T15:50:38.535-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    vehicleType := \'Luxury Sedan\'',
+			#stamp : '2025-07-12T15:50:38.535-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:pickup:dropoff:distance:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance\r    super initializeWithID: anID pickup: aPickup dropoff: aDropoff distance: aDistance.\r    vehicleType := \'Luxury Sedan\'',
+			#stamp : '2025-07-12T15:50:38.535-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Ride,
+				#definitionSource : 'Ride << #PremiumRide\r\tslots: { #vehicleType };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #PremiumRide,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #PremiumRide,
+						#isMeta : false
+					},
+					#name : #vehicleType,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ride class << PremiumRide class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'PremiumRide class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #PremiumRide,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #calculateFare,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'calculateFare\r    "Premium fare: $5.00 base + $2.50 per mile + luxury surcharge"\r    | baseFare luxurySurcharge |\r    baseFare := 5.00 + (distance * 2.50).\r    luxurySurcharge := distance * 0.75.\r    ^ baseFare + luxurySurcharge',
+			#stamp : '2025-07-12T15:50:45.47-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #PremiumRide,
+				#isMeta : false
+			},
+			#name : #rideDetails,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rideDetails\r    ^ String streamContents: [ :stream |\r        stream \r            nextPutAll: \'[PREMIUM] \';\r            nextPutAll: super rideDetails; cr;\r            nextPutAll: \'Vehicle Type: \'; nextPutAll: vehicleType ]',
+			#stamp : '2025-07-12T15:50:53.447-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:51:09.441-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:51:09.441-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:rating:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeWithID: anID name: aName rating: aRating\r    driverID := anID.\r    name := aName.\r    rating := aRating.\r    assignedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:51:09.441-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #driverID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'driverID\r    ^ driverID',
+			#stamp : '2025-07-12T15:51:17.302-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #driverID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'driverID\r    ^ driverID',
+			#stamp : '2025-07-12T15:51:17.302-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #driverID,
+			#protocol : #accessing,
+			#sourceCode : 'driverID\r    ^ driverID',
+			#stamp : '2025-07-12T15:51:17.302-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'name\r    ^ name',
+			#stamp : '2025-07-12T15:51:22.132-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'name\r    ^ name',
+			#stamp : '2025-07-12T15:51:22.132-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #accessing,
+			#sourceCode : 'name\r    ^ name',
+			#stamp : '2025-07-12T15:51:22.132-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #rating,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rating\r    ^ rating',
+			#stamp : '2025-07-12T15:51:27.356-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #rating,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rating\r    ^ rating',
+			#stamp : '2025-07-12T15:51:27.356-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #rating,
+			#protocol : #accessing,
+			#sourceCode : 'rating\r    ^ rating',
+			#stamp : '2025-07-12T15:51:27.356-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rating: newRating\r    rating := newRating',
+			#stamp : '2025-07-12T15:51:34.906-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'rating:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'rating: newRating\r    rating := newRating',
+			#stamp : '2025-07-12T15:51:34.906-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'rating:',
+			#protocol : #accessing,
+			#sourceCode : 'rating: newRating\r    rating := newRating',
+			#stamp : '2025-07-12T15:51:34.906-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRide: aRide\r    "Add a ride to the driver\'s assigned rides list"\r    assignedRides add: aRide',
+			#stamp : '2025-07-12T15:51:41.545-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #adding
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRide: aRide\r    "Add a ride to the driver\'s assigned rides list"\r    assignedRides add: aRide',
+			#stamp : '2025-07-12T15:51:41.545-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #adding,
+			#sourceCode : 'addRide: aRide\r    "Add a ride to the driver\'s assigned rides list"\r    assignedRides add: aRide',
+			#stamp : '2025-07-12T15:51:41.545-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Driver\r\tslots: { #driverID . #name . #rating . #assignedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Driver,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #driverID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #rating,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Driver,
+						#isMeta : false
+					},
+					#name : #assignedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Driver class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Driver class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Driver,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getAssignedRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getAssignedRides\r    "Return a copy of assigned rides for encapsulation"\r    ^ assignedRides copy',
+			#stamp : '2025-07-12T15:51:45.963-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalRides\r    ^ assignedRides size',
+			#stamp : '2025-07-12T15:51:50.884-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalRides\r    ^ assignedRides size',
+			#stamp : '2025-07-12T15:51:50.884-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #accessing,
+			#sourceCode : 'totalRides\r    ^ assignedRides size',
+			#stamp : '2025-07-12T15:51:50.884-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalEarnings,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalEarnings\r    ^ assignedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:51:56.227-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '85' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalEarnings,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalEarnings\r    ^ assignedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:51:56.227-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #totalEarnings,
+			#protocol : #accessing,
+			#sourceCode : 'totalEarnings\r    ^ assignedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:51:56.227-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '86' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Driver,
+				#isMeta : false
+			},
+			#name : #getDriverInfo,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getDriverInfo\r    ^ String streamContents: [ :stream |\r        stream \r            nextPutAll: \'Driver ID: \'; nextPutAll: driverID asString; cr;\r            nextPutAll: \'Name: \'; nextPutAll: name; cr;\r            nextPutAll: \'Rating: \'; nextPutAll: rating asString; nextPutAll: \'/5.0\'; cr;\r            nextPutAll: \'Total Rides: \'; nextPutAll: self totalRides asString; cr;\r            nextPutAll: \'Total Earnings: $\'; nextPutAll: self totalEarnings asString ]',
+			#stamp : '2025-07-12T15:52:01.699-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '87' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '88' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '89' ],
+		#self : OmReference [ '90' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:52:21.35-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '90' ],
+		#self : OmReference [ '91' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '91' ],
+		#self : OmReference [ '92' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeWithID: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:52:21.35-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'initializeWithID:name:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeWithID: anID name: aName\r    riderID := anID.\r    name := aName.\r    requestedRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:52:21.35-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '92' ],
+		#self : OmReference [ '93' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '93' ],
+		#self : OmReference [ '94' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #riderID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'riderID\r    ^ riderID',
+			#stamp : '2025-07-12T15:52:27.785-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '94' ],
+		#self : OmReference [ '95' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '95' ],
+		#self : OmReference [ '96' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #riderID,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'riderID\r    ^ riderID',
+			#stamp : '2025-07-12T15:52:27.785-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #riderID,
+			#protocol : #accessing,
+			#sourceCode : 'riderID\r    ^ riderID',
+			#stamp : '2025-07-12T15:52:27.785-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '96' ],
+		#self : OmReference [ '97' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '97' ],
+		#self : OmReference [ '98' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'name\r    ^ name\r',
+			#stamp : '2025-07-12T15:52:32.561-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '98' ],
+		#self : OmReference [ '99' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'name\r    ^ name\r',
+			#stamp : '2025-07-12T15:52:32.561-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #name,
+			#protocol : #accessing,
+			#sourceCode : 'name\r    ^ name\r',
+			#stamp : '2025-07-12T15:52:32.561-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '99' ],
+		#self : OmReference [ '100' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #Rider\r\tslots: { #riderID . #name . #requestedRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Rider,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #riderID,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #name,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Rider,
+						#isMeta : false
+					},
+					#name : #requestedRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << Rider class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Rider class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Rider,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '100' ],
+		#self : OmReference [ '101' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #getRequestedRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getRequestedRides\r    "Return a copy of requested rides for encapsulation"\r    ^ requestedRides copy',
+			#stamp : '2025-07-12T15:52:37.8-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '101' ],
+		#self : OmReference [ '102' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #'requestRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'requestRide: aRide\r    "Add a ride to the rider\'s requested rides list"\r    requestedRides add: aRide',
+			#stamp : '2025-07-12T15:52:43.915-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '102' ],
+		#self : OmReference [ '103' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalRides\r    ^ requestedRides size',
+			#stamp : '2025-07-12T15:52:47.8-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '103' ],
+		#self : OmReference [ '104' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalRides\r    ^ requestedRides size',
+			#stamp : '2025-07-12T15:52:47.8-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalRides,
+			#protocol : #accessing,
+			#sourceCode : 'totalRides\r    ^ requestedRides size',
+			#stamp : '2025-07-12T15:52:47.8-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '104' ],
+		#self : OmReference [ '105' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalSpent,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalSpent\r    ^ requestedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:52:52.064-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '105' ],
+		#self : OmReference [ '106' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalSpent,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'totalSpent\r    ^ requestedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:52:52.064-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #totalSpent,
+			#protocol : #accessing,
+			#sourceCode : 'totalSpent\r    ^ requestedRides inject: 0 into: [ :sum :ride | sum + ride calculateFare ]',
+			#stamp : '2025-07-12T15:52:52.064-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '106' ],
+		#self : OmReference [ '107' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Rider,
+				#isMeta : false
+			},
+			#name : #viewRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'viewRides\r    ^ String streamContents: [ :stream |\r        stream \r            nextPutAll: \'Rider: \'; nextPutAll: name; cr;\r            nextPutAll: \'Total Rides: \'; nextPutAll: self totalRides asString; cr;\r            nextPutAll: \'Total Spent: $\'; nextPutAll: self totalSpent asString; cr;\r            nextPutAll: \'--- Ride History ---\'; cr.\r        requestedRides do: [ :ride |\r            stream nextPutAll: ride rideDetails; cr; cr ] ]',
+			#stamp : '2025-07-12T15:52:57.14-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '107' ],
+		#self : OmReference [ '108' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '108' ],
+		#self : OmReference [ '109' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '109' ],
+		#self : OmReference [ '110' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize\r    drivers := OrderedCollection new.\r    riders := OrderedCollection new.\r    allRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:53:12.123-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '110' ],
+		#self : OmReference [ '111' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '111' ],
+		#self : OmReference [ '112' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #initialize,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initialize\r    drivers := OrderedCollection new.\r    riders := OrderedCollection new.\r    allRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:53:12.123-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\r    drivers := OrderedCollection new.\r    riders := OrderedCollection new.\r    allRides := OrderedCollection new',
+			#stamp : '2025-07-12T15:53:12.123-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '112' ],
+		#self : OmReference [ '113' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '113' ],
+		#self : OmReference [ '114' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addDriver:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addDriver: aDriver\r    drivers add: aDriver',
+			#stamp : '2025-07-12T15:53:26.69-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '114' ],
+		#self : OmReference [ '115' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #adding
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '115' ],
+		#self : OmReference [ '116' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addDriver:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addDriver: aDriver\r    drivers add: aDriver',
+			#stamp : '2025-07-12T15:53:26.69-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addDriver:',
+			#protocol : #adding,
+			#sourceCode : 'addDriver: aDriver\r    drivers add: aDriver',
+			#stamp : '2025-07-12T15:53:26.69-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '116' ],
+		#self : OmReference [ '117' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '117' ],
+		#self : OmReference [ '118' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRider:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRider: aRider\r    riders add: aRider',
+			#stamp : '2025-07-12T15:53:31.102-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '118' ],
+		#self : OmReference [ '119' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRider:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRider: aRider\r    riders add: aRider',
+			#stamp : '2025-07-12T15:53:31.102-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRider:',
+			#protocol : #adding,
+			#sourceCode : 'addRider: aRider\r    riders add: aRider',
+			#stamp : '2025-07-12T15:53:31.102-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '119' ],
+		#self : OmReference [ '120' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '120' ],
+		#self : OmReference [ '121' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRide: aRide\r    allRides add: aRide',
+			#stamp : '2025-07-12T15:53:35.35-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '121' ],
+		#self : OmReference [ '122' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'addRide: aRide\r    allRides add: aRide',
+			#stamp : '2025-07-12T15:53:35.35-05:00',
+			#package : #RideSharingSystem
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #'addRide:',
+			#protocol : #adding,
+			#sourceCode : 'addRide: aRide\r    allRides add: aRide',
+			#stamp : '2025-07-12T15:53:35.35-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '122' ],
+		#self : OmReference [ '123' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : #Object,
+				#definitionSource : 'Object << #RideSharingSystem\r\tslots: { #drivers . #riders . #allRides };\r\tpackage: \'RideSharingSystem\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #RideSharingSystem,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #drivers,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #riders,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #RideSharingSystem,
+						#isMeta : false
+					},
+					#name : #allRides,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Object class << RideSharingSystem class\r\tslots: {}',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'RideSharingSystem class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #RideSharingSystem,
+					#isMeta : false
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #RideSharingSystem,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '123' ],
+		#self : OmReference [ '124' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #getAllRides,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getAllRides\r    ^ allRides copy',
+			#stamp : '2025-07-12T15:53:40.535-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '124' ],
+		#self : OmReference [ '125' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #RideSharingSystem,
+				#isMeta : false
+			},
+			#name : #demonstratePolymorphism,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'demonstratePolymorphism\r    "Demonstrate polymorphism by calling methods on different ride types"\r    ^ String streamContents: [ :stream |\r        stream nextPutAll: \'=== POLYMORPHISM DEMONSTRATION ===\'; cr; cr.\r        allRides do: [ :ride |\r            stream \r                nextPutAll: ride rideDetails; cr;\r                nextPutAll: \'Calculated Fare: $\'; nextPutAll: ride calculateFare asString; cr;\r                nextPutAll: \'---\'; cr ] ]',
+			#stamp : '2025-07-12T15:53:45.526-05:00',
+			#package : #RideSharingSystem
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '125' ],
+		#self : OmReference [ '126' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\shris\\Documents\\Pharo\\images\\RideSharingApplication\\RideSharingApplication.image'
+	}
+}

@@ -1,0 +1,9 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo13.0-SNAPSHOT-64bit-e698f20169.3384C4C5D880', '126' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\shris\\Documents\\Pharo\\images\\RideSharingApplication\\RideSharingApplication.1.image'
+	}
+}
