@@ -1,0 +1,46 @@
+"Ride Sharing System"
+system := RideSharingSystem new.
+
+"Creating drivers"
+driver1 := Driver new initializeWithID: 1 name: 'Tom Cooper' rating: 4.4.
+driver2 := Driver new initializeWithID: 2 name: 'Henry Milson' rating: 4.2.
+
+"Creating riders"
+rider1 := Rider new initializeWithID: 1 name: 'Patrick Manner'.
+rider2 := Rider new initializeWithID: 2 name: 'Jake Paulo'.
+
+"Different Ride Types and informations"
+standardRide1 := StandardRide new initializeWithID: 1 pickup: '5 BroadWay St' dropoff: '5th & Brodway' distance: 8.
+premiumRide1 := PremiumRide new initializeWithID: 2 pickup: '12 Henry Rd' dropoff: '12 Park Center' distance: 16.
+standardRide2 := StandardRide new initializeWithID: 3 pickup: '9 Stacy Rd' dropoff: 'Jefferson St' distance: 10.
+premiumRide2 := PremiumRide new initializeWithID: 4 pickup: 'Hamilton Rd' dropoff: '100 Highway Rd' distance: 25.
+
+"Assigning rides to drivers"
+driver1 addRide: standardRide1.
+driver1 addRide: premiumRide1.
+driver2 addRide: standardRide2.
+driver2 addRide: premiumRide2.
+
+"Assigning rides to riders"
+rider1 requestRide: standardRide1.
+rider1 requestRide: premiumRide2.
+rider2 requestRide: premiumRide1.
+rider2 requestRide: standardRide2.
+
+"Adding and compiling all rides to drivers and riders"
+system addDriver: driver1.
+system addDriver: driver2.
+system addRider: rider1.
+system addRider: rider2.
+system addRide: standardRide1.
+system addRide: premiumRide1.
+system addRide: standardRide2.
+system addRide: premiumRide2.
+
+"Displaying the results"
+Transcript clear.
+Transcript show: driver1 getDriverInfo; cr; cr.
+Transcript show: driver2 getDriverInfo; cr; cr.
+Transcript show: rider1 viewRides; cr; cr.
+Transcript show: rider2 viewRides; cr; cr.
+Transcript show: system demonstratePolymorphism; cr.
